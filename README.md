@@ -7,7 +7,9 @@ This week I had to take a dive into the world of VBA to get Steve the informatio
 **Results**
 
 Below you can see 2 charts that were created for all stocks in 2017 and another for all stocks. In 2018. Each chart has 3 columns which include a ticker, total daily volume, and a return. In the return column you can see either an increase or a decrease on the stock accounts. The data that is filled in green shows that there was an increase over the year, and the data. Filled in red shows a decrease within the year. 
+
 <img width="252" alt="Screen Shot 2021-10-10 at 8 34 03 PM" src="https://user-images.githubusercontent.com/91299616/136735062-bf757528-d6e6-4f4b-8683-188f28e2f061.png">
+
 <img width="252" alt="Screen Shot 2021-10-10 at 8 34 18 PM" src="https://user-images.githubusercontent.com/91299616/136735068-5f8170cb-2117-45a4-a05b-5ec44cfff585.png">
 
 **Analysis**
@@ -15,7 +17,7 @@ Below you can see 2 charts that were created for all stocks in 2017 and another 
 The first code I that I ran to get these results was long and strainious. For the worksheet “All Stocks Analysis” I had to generate 3 separate Sub’s which included, sub AllStocksAnalysis, Sub formatingAllStocksAnalysis, and Sub ClearFormat. Having to run all 3 of these subs to get the results I needed took approximately .6895 for both 2017 and 2018 stock analysis. 
 We then had to refactor our code by incorporating the instructions file to our VBA and getting all of the data from the 3 subs onto 1 sheet. After filling in the blanks myself I was able to get my codes run time down to approximately .1887 seconds which as we can see if a HUGE decrease in time! Below you can see the generated code with the steps used to grab our data.
 
-'1a) Create a ticker Index
+    '1a) Create a ticker Index
     tickerIndex = 0
 
     '1b) Create three output arrays
