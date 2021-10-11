@@ -1,8 +1,11 @@
 **Project Overview**
+
 This week I had to take a dive into the world of VBA to get Steve the information on Green Stocks that he needs for his parent’s investment! Visual Basic Application (VBA) is the main way I was able to compare and grab the right data for Steve this week. VBA gives the ability to generate codes into your spreadsheet in a timely manner as well as incorporating interactive boxes to get all the data you need onto 1 worksheet!
+
 Results
+
 Below you can see 2 charts that were created for all stocks in 2017 and another for all stocks. In 2018. Each chart has 3 columns which include a ticker, total daily volume, and a return. In the return column you can see either an increase or a decrease on the stock accounts. The data that is filled in green shows that there was an increase over the year, and the data. Filled in red shows a decrease within the year. 
-*insert charts*
+
 
 **Analysis**
 The first code I that I ran to get these results was long and strainious. For the worksheet “All Stocks Analysis” I had to generate 3 separate Sub’s which included, sub AllStocksAnalysis, Sub formatingAllStocksAnalysis, and Sub ClearFormat. Having to run all 3 of these subs to get the results I needed took approximately .6895 for both 2017 and 2018 stock analysis. 
